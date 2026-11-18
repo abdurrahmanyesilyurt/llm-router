@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.cache/
+.env
+eval/results/live_outputs.jsonl
+eval/results/live_judgments.jsonl

@@ -1,0 +1,32 @@
+{"id": "h001", "a": "Bir yumurtayı kaç dakika haşlamalıyım?", "b": "Yumurta kaç dakikada haşlanır?", "should_hit": true, "note": "paraphrase"}
+{"id": "h002", "a": "Linux'ta bir dosyanın izinlerini nasıl değiştiririm?", "b": "Linux'ta dosya izinleri nasıl değiştirilir?", "should_hit": true, "note": "paraphrase"}
+{"id": "h003", "a": "Çay demlemenin doğru yolu nedir?", "b": "Çay nasıl doğru demlenir?", "should_hit": true, "note": "paraphrase"}
+{"id": "h004", "a": "Node.js'te ortam değişkenlerini nasıl okurum?", "b": "Node.js'te environment variable nasıl okunur?", "should_hit": true, "note": "TR/EN term mix"}
+{"id": "h005", "a": "Kış lastiği ne zaman takılmalı?", "b": "Kış lastiklerini hangi ayda takmak gerekir?", "should_hit": true, "note": "paraphrase"}
+{"id": "h006", "a": "React'te useEffect ne işe yarar?", "b": "React useEffect hook'u ne için kullanılır?", "should_hit": true, "note": "paraphrase"}
+{"id": "h007", "a": "Ehliyet yenileme için hangi belgeler gerekiyor?", "b": "Ehliyetimi yenilemek için gerekli evraklar neler?", "should_hit": true, "note": "synonyms"}
+{"id": "h008", "a": "What's the difference between a virus and a bacterium?", "b": "How do viruses differ from bacteria?", "should_hit": true, "note": "paraphrase"}
+{"id": "h009", "a": "How do I delete a branch in Git?", "b": "What's the command to remove a git branch?", "should_hit": true, "note": "synonyms"}
+{"id": "h010", "a": "Can dogs eat grapes?", "b": "Is it safe for dogs to eat grapes?", "should_hit": true, "note": "paraphrase"}
+{"id": "h011", "a": "How do I add a column to a table in PostgreSQL?", "b": "PostgreSQL: how to add a new column to an existing table", "should_hit": true, "note": "keyword style"}
+{"id": "h012", "a": "Tips for a job interview", "b": "How can I prepare for a job interview?", "should_hit": true, "note": "keyword query vs question"}
+{"id": "h013", "a": "What causes inflation?", "b": "Why does inflation happen?", "should_hit": true, "note": "paraphrase"}
+{"id": "h014", "a": "How do I take a screenshot on Windows?", "b": "What's the shortcut for a screenshot in Windows?", "should_hit": true, "note": "paraphrase"}
+{"id": "h015", "a": "Explain recursion with a simple example.", "b": "Can you explain recursion using a simple example?", "should_hit": true, "note": "politeness wrapper"}
+{"id": "h016", "a": "İzmir'den Bodrum'a giden son otobüs kaçta?", "b": "Bodrum'dan İzmir'e giden son otobüs kaçta?", "should_hit": false, "note": "direction reversed"}
+{"id": "h017", "a": "Fransızcadan Türkçeye en iyi çeviri uygulaması hangisi?", "b": "Türkçeden Fransızcaya en iyi çeviri uygulaması hangisi?", "should_hit": false, "note": "translation direction reversed"}
+{"id": "h018", "a": "How do I move files from Google Drive to Dropbox?", "b": "How do I move files from Dropbox to Google Drive?", "should_hit": false, "note": "direction reversed"}
+{"id": "h019", "a": "Hamilelikte hangi ilaçlar kullanılabilir?", "b": "Hamilelikte hangi ilaçlar kullanılmamalı?", "should_hit": false, "note": "negation (-mamalı)"}
+{"id": "h020", "a": "Which vitamins should be taken together?", "b": "Which vitamins should never be taken together?", "should_hit": false, "note": "negation"}
+{"id": "h021", "a": "Laktozlu süt hangi markalarda var?", "b": "Laktozsuz süt hangi markalarda var?", "should_hit": false, "note": "privative suffix"}
+{"id": "h022", "a": "What is the fastest sorting algorithm?", "b": "What is the slowest sorting algorithm?", "should_hit": false, "note": "fastest vs slowest"}
+{"id": "h023", "a": "Kira artışı en fazla yüzde kaç olabilir?", "b": "Kira artışı en az yüzde kaç olabilir?", "should_hit": false, "note": "en fazla vs en az"}
+{"id": "h024", "a": "How do I enable dark mode in Chrome?", "b": "How do I disable dark mode in Chrome?", "should_hit": false, "note": "enable vs disable"}
+{"id": "h025", "a": "1 bitcoin kaç dolar?", "b": "1 ethereum kaç dolar?", "should_hit": false, "note": "different asset (lowercase)"}
+{"id": "h026", "a": "What's the population of Tokyo in 2020?", "b": "What's the population of Tokyo in 2010?", "should_hit": false, "note": "different year"}
+{"id": "h027", "a": "500 TL'nin %18'i kaç eder?", "b": "500 TL'nin %8'i kaç eder?", "should_hit": false, "note": "different percentage"}
+{"id": "h028", "a": "How many tablespoons are in a cup?", "b": "How many teaspoons are in a cup?", "should_hit": false, "note": "different unit"}
+{"id": "h029", "a": "Bitcoin'i Ethereum'a nasıl dönüştürürüm?", "b": "Ethereum'u Bitcoin'e nasıl dönüştürürüm?", "should_hit": false, "note": "conversion direction (accusative vs dative)"}
+{"id": "h030", "a": "Who won the 2018 World Cup?", "b": "Who won the 2022 World Cup?", "should_hit": false, "note": "different year"}
+{"id": "h031", "a": "Sabah aç karnına kahve içmek zararlı mı?", "b": "Sabah tok karnına kahve içmek zararlı mı?", "should_hit": false, "note": "aç vs tok"}
+{"id": "h032", "a": "Write a cover letter for a junior developer role", "b": "Write a cover letter for a senior developer role", "should_hit": false, "note": "junior vs senior"}

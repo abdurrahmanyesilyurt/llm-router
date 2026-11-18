@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-router"
+version = "0.1.0"
+description = "A gateway in front of Claude: semantic cache on Redis 8 vector search, a cost-aware small/large model router (heuristic, kNN, cascade) and Prometheus metrics, with an evaluation harness that measures all of it."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=2.10",
+  "fastapi>=0.164",
+  "uvicorn[standard]>=0.54",
+  "redis>=6.4",
+  "fastembed>=0.9",
+  "numpy>=2.2",
+  "prometheus-client>=0.22",
+  "pydantic-settings>=2.16",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9",
+  "ruff>=0.17",
+  "httpx>=0.28",
+  "testcontainers[redis]>=4.15",
+]
+
+[project.scripts]
+llm-router = "llm_router.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # Turkish text and en dashes are intentional
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["redis: needs Redis 8 with the Query Engine (Testcontainers, or REDIS_URL)"]

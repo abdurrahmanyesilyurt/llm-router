@@ -1,0 +1,1217 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "pairs": 87,
+  "should_hit": 43,
+  "should_not_hit": 44,
+  "max_false_hit_rate": 0.0,
+  "embedding_only": {
+    "rows": [
+      {
+        "threshold": 0.8,
+        "precision": 0.5493,
+        "recall": 0.907,
+        "f1": 0.6842,
+        "false_hit_rate": 0.7273,
+        "tp": 39,
+        "fp": 32,
+        "fn": 4
+      },
+      {
+        "threshold": 0.82,
+        "precision": 0.5507,
+        "recall": 0.8837,
+        "f1": 0.6785,
+        "false_hit_rate": 0.7045,
+        "tp": 38,
+        "fp": 31,
+        "fn": 5
+      },
+      {
+        "threshold": 0.84,
+        "precision": 0.5441,
+        "recall": 0.8605,
+        "f1": 0.6667,
+        "false_hit_rate": 0.7045,
+        "tp": 37,
+        "fp": 31,
+        "fn": 6
+      },
+      {
+        "threshold": 0.86,
+        "precision": 0.5522,
+        "recall": 0.8605,
+        "f1": 0.6727,
+        "false_hit_rate": 0.6818,
+        "tp": 37,
+        "fp": 30,
+        "fn": 6
+      },
+      {
+        "threshold": 0.88,
+        "precision": 0.5333,
+        "recall": 0.7442,
+        "f1": 0.6213,
+        "false_hit_rate": 0.6364,
+        "tp": 32,
+        "fp": 28,
+        "fn": 11
+      },
+      {
+        "threshold": 0.9,
+        "precision": 0.5357,
+        "recall": 0.6977,
+        "f1": 0.6061,
+        "false_hit_rate": 0.5909,
+        "tp": 30,
+        "fp": 26,
+        "fn": 13
+      },
+      {
+        "threshold": 0.92,
+        "precision": 0.5102,
+        "recall": 0.5814,
+        "f1": 0.5435,
+        "false_hit_rate": 0.5455,
+        "tp": 25,
+        "fp": 24,
+        "fn": 18
+      },
+      {
+        "threshold": 0.94,
+        "precision": 0.55,
+        "recall": 0.5116,
+        "f1": 0.5301,
+        "false_hit_rate": 0.4091,
+        "tp": 22,
+        "fp": 18,
+        "fn": 21
+      },
+      {
+        "threshold": 0.96,
+        "precision": 0.4583,
+        "recall": 0.2558,
+        "f1": 0.3283,
+        "false_hit_rate": 0.2955,
+        "tp": 11,
+        "fp": 13,
+        "fn": 32
+      },
+      {
+        "threshold": 0.98,
+        "precision": 0.375,
+        "recall": 0.1395,
+        "f1": 0.2034,
+        "false_hit_rate": 0.2273,
+        "tp": 6,
+        "fp": 10,
+        "fn": 37
+      }
+    ],
+    "recommended": {
+      "threshold": 0.98,
+      "precision": 0.375,
+      "recall": 0.1395,
+      "f1": 0.2034,
+      "false_hit_rate": 0.2273,
+      "tp": 6,
+      "fp": 10,
+      "fn": 37,
+      "met_budget": false
+    }
+  },
+  "with_guard": {
+    "rows": [
+      {
+        "threshold": 0.8,
+        "precision": 0.975,
+        "recall": 0.907,
+        "f1": 0.9398,
+        "false_hit_rate": 0.0227,
+        "tp": 39,
+        "fp": 1,
+        "fn": 4
+      },
+      {
+        "threshold": 0.82,
+        "precision": 0.9744,
+        "recall": 0.8837,
+        "f1": 0.9268,
+        "false_hit_rate": 0.0227,
+        "tp": 38,
+        "fp": 1,
+        "fn": 5
+      },
+      {
+        "threshold": 0.84,
+        "precision": 0.9737,
+        "recall": 0.8605,
+        "f1": 0.9136,
+        "false_hit_rate": 0.0227,
+        "tp": 37,
+        "fp": 1,
+        "fn": 6
+      },
+      {
+        "threshold": 0.86,
+        "precision": 0.9737,
+        "recall": 0.8605,
+        "f1": 0.9136,
+        "false_hit_rate": 0.0227,
+        "tp": 37,
+        "fp": 1,
+        "fn": 6
+      },
+      {
+        "threshold": 0.88,
+        "precision": 1.0,
+        "recall": 0.7442,
+        "f1": 0.8533,
+        "false_hit_rate": 0.0,
+        "tp": 32,
+        "fp": 0,
+        "fn": 11
+      },
+      {
+        "threshold": 0.9,
+        "precision": 1.0,
+        "recall": 0.6977,
+        "f1": 0.8219,
+        "false_hit_rate": 0.0,
+        "tp": 30,
+        "fp": 0,
+        "fn": 13
+      },
+      {
+        "threshold": 0.92,
+        "precision": 1.0,
+        "recall": 0.5814,
+        "f1": 0.7353,
+        "false_hit_rate": 0.0,
+        "tp": 25,
+        "fp": 0,
+        "fn": 18
+      },
+      {
+        "threshold": 0.94,
+        "precision": 1.0,
+        "recall": 0.5116,
+        "f1": 0.6769,
+        "false_hit_rate": 0.0,
+        "tp": 22,
+        "fp": 0,
+        "fn": 21
+      },
+      {
+        "threshold": 0.96,
+        "precision": 1.0,
+        "recall": 0.2558,
+        "f1": 0.4074,
+        "false_hit_rate": 0.0,
+        "tp": 11,
+        "fp": 0,
+        "fn": 32
+      },
+      {
+        "threshold": 0.98,
+        "precision": 1.0,
+        "recall": 0.1395,
+        "f1": 0.2448,
+        "false_hit_rate": 0.0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 37
+      }
+    ],
+    "recommended": {
+      "threshold": 0.88,
+      "precision": 1.0,
+      "recall": 0.7442,
+      "f1": 0.8533,
+      "false_hit_rate": 0.0,
+      "tp": 32,
+      "fp": 0,
+      "fn": 11,
+      "met_budget": true
+    }
+  },
+  "guard_false_vetoes": [
+    {
+      "id": "c006",
+      "similarity": 0.5034,
+      "should_hit": true,
+      "veto": "entity_differs:cv",
+      "note": "synonyms (özgeçmiş/CV)",
+      "a": "İyi bir özgeçmiş nasıl yazılır?",
+      "b": "Etkili bir CV nasıl hazırlanır?"
+    }
+  ],
+  "hardest_negatives": [
+    {
+      "id": "c049",
+      "similarity": 0.9994,
+      "should_hit": false,
+      "veto": "direction_differs:checking->savings",
+      "note": "direction reversed between common nouns",
+      "a": "Send money from my savings account to my checking account",
+      "b": "Send money from my checking account to my savings account"
+    },
+    {
+      "id": "c087",
+      "similarity": 0.9977,
+      "should_hit": false,
+      "veto": "long_prompt_not_exact",
+      "note": "long prompt, last clause flipped",
+      "a": "Summarize the following text: Our team migrated the billing service from a monolith to thr",
+      "b": "Summarize the following text: Our team migrated the billing service from a monolith to thr"
+    },
+    {
+      "id": "c047",
+      "similarity": 0.9969,
+      "should_hit": false,
+      "veto": "direction_differs:new->london",
+      "note": "direction reversed",
+      "a": "Flights from London to New York",
+      "b": "Flights from New York to London"
+    },
+    {
+      "id": "c086",
+      "similarity": 0.9966,
+      "should_hit": false,
+      "veto": "long_prompt_not_exact",
+      "note": "long prompt, ending reverses the meaning beyond the 128-token window",
+      "a": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı.",
+      "b": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı."
+    },
+    {
+      "id": "c045",
+      "similarity": 0.9965,
+      "should_hit": false,
+      "veto": "direction_differs:ingilizce",
+      "note": "translation direction reversed",
+      "a": "Türkçeden İngilizceye çevir: 'Toplantı ertelendi.'",
+      "b": "İngilizceden Türkçeye çevir: 'Toplantı ertelendi.'"
+    },
+    {
+      "id": "c066",
+      "similarity": 0.9954,
+      "should_hit": false,
+      "veto": "direction_differs:kilometres->miles",
+      "note": "unit direction reversed",
+      "a": "Convert 10 miles to kilometres",
+      "b": "Convert 10 kilometres to miles"
+    },
+    {
+      "id": "c048",
+      "similarity": 0.9951,
+      "should_hit": false,
+      "veto": "direction_differs:türkçe",
+      "note": "translation direction reversed",
+      "a": "Almancadan Türkçeye çeviri ücreti ne kadar?",
+      "b": "Türkçeden Almancaya çeviri ücreti ne kadar?"
+    },
+    {
+      "id": "c071",
+      "similarity": 0.9949,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different version",
+      "a": "Python 3.12'de yeni gelen özellikler neler?",
+      "b": "Python 3.13'te yeni gelen özellikler neler?"
+    },
+    {
+      "id": "c044",
+      "similarity": 0.99,
+      "should_hit": false,
+      "veto": "direction_differs:ankara",
+      "note": "direction reversed",
+      "a": "İstanbul'dan Ankara'ya giden ilk tren saat kaçta?",
+      "b": "Ankara'dan İstanbul'a giden ilk tren saat kaçta?"
+    },
+    {
+      "id": "c065",
+      "similarity": 0.9852,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different year",
+      "a": "2023 yılında Türkiye'nin enflasyon oranı neydi?",
+      "b": "2024 yılında Türkiye'nin enflasyon oranı neydi?"
+    },
+    {
+      "id": "c067",
+      "similarity": 0.9794,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different date",
+      "a": "What was the weather like in Paris on 14 July 2023?",
+      "b": "What was the weather like in Paris on 14 July 2024?"
+    },
+    {
+      "id": "c083",
+      "similarity": 0.9773,
+      "should_hit": false,
+      "veto": "entity_differs:ingilizce",
+      "note": "summarise vs translate",
+      "a": "Şu cümleyi özetle: 'Toplantı yarın saat onda başlayacak ve iki saat sürecek.'",
+      "b": "Şu cümleyi İngilizceye çevir: 'Toplantı yarın saat onda başlayacak ve iki saat sürecek.'"
+    }
+  ],
+  "weakest_positives": [
+    {
+      "id": "c008",
+      "similarity": 0.4609,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, negation on both sides",
+      "a": "Ekmek hamurum neden kabarmadı?",
+      "b": "Hamurum neden mayalanmadı?"
+    },
+    {
+      "id": "c006",
+      "similarity": 0.5034,
+      "should_hit": true,
+      "veto": "entity_differs:cv",
+      "note": "synonyms (özgeçmiş/CV)",
+      "a": "İyi bir özgeçmiş nasıl yazılır?",
+      "b": "Etkili bir CV nasıl hazırlanır?"
+    },
+    {
+      "id": "c020",
+      "similarity": 0.5493,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, unit only implied in one",
+      "a": "Kombi basıncı kaç olmalı?",
+      "b": "Kombinin basıncı kaç bar olmalıdır?"
+    },
+    {
+      "id": "c019",
+      "similarity": 0.7923,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Mikrodalga fırında metal kap kullanılır mı?",
+      "b": "Mikrodalgaya metal kap koymak güvenli mi?"
+    },
+    {
+      "id": "c025",
+      "similarity": 0.8186,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, very different wording",
+      "a": "How can I improve my sleep quality?",
+      "b": "Tips for sleeping better?"
+    },
+    {
+      "id": "c017",
+      "similarity": 0.8305,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Bebeklerde ateş kaç derecede tehlikelidir?",
+      "b": "Bebeğin ateşi kaç dereceyi geçerse tehlikeli olur?"
+    },
+    {
+      "id": "c005",
+      "similarity": 0.8636,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Git'te son commit nasıl geri alınır?",
+      "b": "Git'te en son yaptığım commit'i nasıl geri alırım?"
+    },
+    {
+      "id": "c031",
+      "similarity": 0.8705,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I make cold brew coffee at home?",
+      "b": "What's the method for making cold brew at home?"
+    }
+  ],
+  "details": [
+    {
+      "id": "c001",
+      "similarity": 0.9703,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Türkiye'nin başkenti neresidir?",
+      "b": "Türkiye'nin başkenti hangi şehir?"
+    },
+    {
+      "id": "c002",
+      "similarity": 0.9192,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Python'da bir listeyi nasıl ters çeviririm?",
+      "b": "Python'da liste tersine nasıl çevrilir?"
+    },
+    {
+      "id": "c003",
+      "similarity": 0.9627,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Fotosentez nedir?",
+      "b": "Fotosentez ne demek?"
+    },
+    {
+      "id": "c004",
+      "similarity": 0.9565,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, dropped verb",
+      "a": "Kahve içmek tansiyonu yükseltir mi?",
+      "b": "Kahve tansiyonu yükseltir mi?"
+    },
+    {
+      "id": "c005",
+      "similarity": 0.8636,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Git'te son commit nasıl geri alınır?",
+      "b": "Git'te en son yaptığım commit'i nasıl geri alırım?"
+    },
+    {
+      "id": "c006",
+      "similarity": 0.5034,
+      "should_hit": true,
+      "veto": "entity_differs:cv",
+      "note": "synonyms (özgeçmiş/CV)",
+      "a": "İyi bir özgeçmiş nasıl yazılır?",
+      "b": "Etkili bir CV nasıl hazırlanır?"
+    },
+    {
+      "id": "c007",
+      "similarity": 0.9925,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Docker ile sanal makine arasındaki fark nedir?",
+      "b": "Docker ve sanal makine arasındaki farklar nelerdir?"
+    },
+    {
+      "id": "c008",
+      "similarity": 0.4609,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, negation on both sides",
+      "a": "Ekmek hamurum neden kabarmadı?",
+      "b": "Hamurum neden mayalanmadı?"
+    },
+    {
+      "id": "c009",
+      "similarity": 0.8757,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, privative suffix on both sides",
+      "a": "Uykusuzluğa ne iyi gelir?",
+      "b": "Uykusuzluk için ne yapabilirim?"
+    },
+    {
+      "id": "c010",
+      "similarity": 0.942,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "SQL'de JOIN türleri nelerdir?",
+      "b": "SQL JOIN çeşitlerini açıklar mısın?"
+    },
+    {
+      "id": "c011",
+      "similarity": 0.8781,
+      "should_hit": true,
+      "veto": null,
+      "note": "greeting and punctuation only",
+      "a": "Merhaba, REST API nedir?",
+      "b": "REST API nedir"
+    },
+    {
+      "id": "c012",
+      "similarity": 0.9491,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Kedim neden sürekli miyavlıyor?",
+      "b": "Kedimin sürekli miyavlamasının sebebi ne olabilir?"
+    },
+    {
+      "id": "c013",
+      "similarity": 0.9307,
+      "should_hit": true,
+      "veto": null,
+      "note": "casing and synonyms",
+      "a": "Excel'de düşeyara formülü nasıl kullanılır?",
+      "b": "Excel DÜŞEYARA fonksiyonunu nasıl kullanırım?"
+    },
+    {
+      "id": "c014",
+      "similarity": 0.941,
+      "should_hit": true,
+      "veto": null,
+      "note": "keyword query vs question",
+      "a": "Evde kolay pizza hamuru tarifi",
+      "b": "Evde pratik pizza hamuru nasıl yapılır?"
+    },
+    {
+      "id": "c015",
+      "similarity": 0.8873,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "İngilizce öğrenmek için en iyi yöntemler neler?",
+      "b": "İngilizceyi en iyi nasıl öğrenirim?"
+    },
+    {
+      "id": "c016",
+      "similarity": 0.9453,
+      "should_hit": true,
+      "veto": null,
+      "note": "personal vs impersonal form",
+      "a": "Kredi kartı borcu nasıl yapılandırılır?",
+      "b": "Kredi kartı borcumu nasıl yapılandırabilirim?"
+    },
+    {
+      "id": "c017",
+      "similarity": 0.8305,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Bebeklerde ateş kaç derecede tehlikelidir?",
+      "b": "Bebeğin ateşi kaç dereceyi geçerse tehlikeli olur?"
+    },
+    {
+      "id": "c018",
+      "similarity": 0.9511,
+      "should_hit": true,
+      "veto": null,
+      "note": "reordered, same meaning",
+      "a": "JavaScript'te let ve var farkı nedir?",
+      "b": "JavaScript'te var ile let arasındaki fark ne?"
+    },
+    {
+      "id": "c019",
+      "similarity": 0.7923,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Mikrodalga fırında metal kap kullanılır mı?",
+      "b": "Mikrodalgaya metal kap koymak güvenli mi?"
+    },
+    {
+      "id": "c020",
+      "similarity": 0.5493,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, unit only implied in one",
+      "a": "Kombi basıncı kaç olmalı?",
+      "b": "Kombinin basıncı kaç bar olmalıdır?"
+    },
+    {
+      "id": "c021",
+      "similarity": 0.9156,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Yazılım mühendisi olmak için hangi dilleri öğrenmeliyim?",
+      "b": "Yazılım mühendisliği için hangi programlama dillerini öğrenmem gerekir?"
+    },
+    {
+      "id": "c022",
+      "similarity": 0.9527,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Pasaport başvurusu için hangi belgeler gerekli?",
+      "b": "Pasaport almak için gereken belgeler nelerdir?"
+    },
+    {
+      "id": "c023",
+      "similarity": 0.9841,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I reverse a string in Python?",
+      "b": "What's the way to reverse a string in Python?"
+    },
+    {
+      "id": "c024",
+      "similarity": 0.9593,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "What is the capital of Australia?",
+      "b": "Which city is Australia's capital?"
+    },
+    {
+      "id": "c025",
+      "similarity": 0.8186,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase, very different wording",
+      "a": "How can I improve my sleep quality?",
+      "b": "Tips for sleeping better?"
+    },
+    {
+      "id": "c026",
+      "similarity": 0.9465,
+      "should_hit": true,
+      "veto": null,
+      "note": "politeness wrapper",
+      "a": "What is a REST API?",
+      "b": "Can you explain what a REST API is?"
+    },
+    {
+      "id": "c027",
+      "similarity": 0.9616,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I center a div in CSS?",
+      "b": "What's the best way to center a div with CSS?"
+    },
+    {
+      "id": "c028",
+      "similarity": 0.8972,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "What are the symptoms of dehydration?",
+      "b": "What are signs that I'm dehydrated?"
+    },
+    {
+      "id": "c029",
+      "similarity": 0.92,
+      "should_hit": true,
+      "veto": null,
+      "note": "synonyms",
+      "a": "How do I undo the last git commit?",
+      "b": "How can I revert my most recent commit in git?"
+    },
+    {
+      "id": "c030",
+      "similarity": 0.9833,
+      "should_hit": true,
+      "veto": null,
+      "note": "imperative vs question",
+      "a": "Explain the difference between TCP and UDP.",
+      "b": "What's the difference between TCP and UDP?"
+    },
+    {
+      "id": "c031",
+      "similarity": 0.8705,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I make cold brew coffee at home?",
+      "b": "What's the method for making cold brew at home?"
+    },
+    {
+      "id": "c032",
+      "similarity": 0.9481,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Why is the sky blue?",
+      "b": "Why does the sky look blue?"
+    },
+    {
+      "id": "c033",
+      "similarity": 0.9091,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "What does HTTP 404 mean?",
+      "b": "What is a 404 error in HTTP?"
+    },
+    {
+      "id": "c034",
+      "similarity": 0.9231,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Best way to learn SQL as a beginner?",
+      "b": "How should a beginner start learning SQL?"
+    },
+    {
+      "id": "c035",
+      "similarity": 0.9139,
+      "should_hit": true,
+      "veto": null,
+      "note": "keyword style",
+      "a": "How do I convert a list to a set in Python?",
+      "b": "Python: turn a list into a set"
+    },
+    {
+      "id": "c036",
+      "similarity": 0.9672,
+      "should_hit": true,
+      "veto": null,
+      "note": "politeness wrapper",
+      "a": "What is the Pythagorean theorem?",
+      "b": "Can you explain the Pythagorean theorem?"
+    },
+    {
+      "id": "c037",
+      "similarity": 0.9142,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I write a good cover letter?",
+      "b": "Tips for writing an effective cover letter"
+    },
+    {
+      "id": "c038",
+      "similarity": 1.0,
+      "should_hit": true,
+      "veto": null,
+      "note": "casing and punctuation only",
+      "a": "WHAT IS KUBERNETES",
+      "b": "what is kubernetes?"
+    },
+    {
+      "id": "c039",
+      "similarity": 0.9936,
+      "should_hit": true,
+      "veto": null,
+      "note": "keyword query vs question",
+      "a": "how to boil an egg",
+      "b": "How do I boil an egg?"
+    },
+    {
+      "id": "c040",
+      "similarity": 0.8789,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "What is machine learning, in simple terms?",
+      "b": "Explain machine learning simply."
+    },
+    {
+      "id": "c041",
+      "similarity": 0.9494,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Is it safe to eat raw cookie dough?",
+      "b": "Can you safely eat raw cookie dough?"
+    },
+    {
+      "id": "c042",
+      "similarity": 0.9645,
+      "should_hit": true,
+      "veto": null,
+      "note": "question vs imperative",
+      "a": "What's a good name for a golden retriever puppy?",
+      "b": "Suggest a name for my golden retriever puppy."
+    },
+    {
+      "id": "c043",
+      "similarity": 1.0,
+      "should_hit": true,
+      "veto": null,
+      "note": "long prompt, identical apart from casing and spaces",
+      "a": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı.",
+      "b": "  AŞAĞIDAKİ METNİ ÖZETLE: ŞİRKETİMİZ 2025 YILINDA YURT İÇİ SATIŞLARINI YÜZDE ON İKİ ARTIRD"
+    },
+    {
+      "id": "c044",
+      "similarity": 0.99,
+      "should_hit": false,
+      "veto": "direction_differs:ankara",
+      "note": "direction reversed",
+      "a": "İstanbul'dan Ankara'ya giden ilk tren saat kaçta?",
+      "b": "Ankara'dan İstanbul'a giden ilk tren saat kaçta?"
+    },
+    {
+      "id": "c045",
+      "similarity": 0.9965,
+      "should_hit": false,
+      "veto": "direction_differs:ingilizce",
+      "note": "translation direction reversed",
+      "a": "Türkçeden İngilizceye çevir: 'Toplantı ertelendi.'",
+      "b": "İngilizceden Türkçeye çevir: 'Toplantı ertelendi.'"
+    },
+    {
+      "id": "c046",
+      "similarity": 0.9288,
+      "should_hit": false,
+      "veto": "direction_differs:eur->usd",
+      "note": "conversion direction reversed",
+      "a": "Convert 100 USD to EUR",
+      "b": "Convert 100 EUR to USD"
+    },
+    {
+      "id": "c047",
+      "similarity": 0.9969,
+      "should_hit": false,
+      "veto": "direction_differs:new->london",
+      "note": "direction reversed",
+      "a": "Flights from London to New York",
+      "b": "Flights from New York to London"
+    },
+    {
+      "id": "c048",
+      "similarity": 0.9951,
+      "should_hit": false,
+      "veto": "direction_differs:türkçe",
+      "note": "translation direction reversed",
+      "a": "Almancadan Türkçeye çeviri ücreti ne kadar?",
+      "b": "Türkçeden Almancaya çeviri ücreti ne kadar?"
+    },
+    {
+      "id": "c049",
+      "similarity": 0.9994,
+      "should_hit": false,
+      "veto": "direction_differs:checking->savings",
+      "note": "direction reversed between common nouns",
+      "a": "Send money from my savings account to my checking account",
+      "b": "Send money from my checking account to my savings account"
+    },
+    {
+      "id": "c050",
+      "similarity": 0.9488,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "negation",
+      "a": "Hangi meyveler köpekler için zehirlidir?",
+      "b": "Hangi meyveler köpekler için zehirli değildir?"
+    },
+    {
+      "id": "c051",
+      "similarity": 0.957,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "privative suffix (-siz) flips meaning",
+      "a": "Şekerli kahve sağlıklı mı?",
+      "b": "Şekersiz kahve sağlıklı mı?"
+    },
+    {
+      "id": "c052",
+      "similarity": 0.9549,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "negation",
+      "a": "Which foods should I eat before a workout?",
+      "b": "Which foods should I not eat before a workout?"
+    },
+    {
+      "id": "c053",
+      "similarity": 0.9304,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "negative suffix (-emez)",
+      "a": "Python'da hangi veri tipleri değiştirilebilir?",
+      "b": "Python'da hangi veri tipleri değiştirilemez?"
+    },
+    {
+      "id": "c054",
+      "similarity": 0.9311,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "negation (n't)",
+      "a": "Which countries require a visa for Turkish citizens?",
+      "b": "Which countries don't require a visa for Turkish citizens?"
+    },
+    {
+      "id": "c055",
+      "similarity": 0.9243,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "privative suffix (-siz)",
+      "a": "Glutenli ürünler nelerdir?",
+      "b": "Glutensiz ürünler nelerdir?"
+    },
+    {
+      "id": "c056",
+      "similarity": 0.8886,
+      "should_hit": false,
+      "veto": "polarity_flipped:en yüksek/en düşük",
+      "note": "en yüksek vs en düşük",
+      "a": "Türkiye'de en yüksek maaş veren meslekler hangileri?",
+      "b": "Türkiye'de en düşük maaş veren meslekler hangileri?"
+    },
+    {
+      "id": "c057",
+      "similarity": 0.7967,
+      "should_hit": false,
+      "veto": "polarity_flipped:highest/lowest",
+      "note": "highest vs lowest",
+      "a": "What is the highest-paying programming language?",
+      "b": "What is the lowest-paying programming language?"
+    },
+    {
+      "id": "c058",
+      "similarity": 0.7869,
+      "should_hit": false,
+      "veto": "polarity_flipped:en büyük/en küçük",
+      "note": "en büyük vs en küçük",
+      "a": "Dünyanın en büyük okyanusu hangisi?",
+      "b": "Dünyanın en küçük okyanusu hangisi?"
+    },
+    {
+      "id": "c059",
+      "similarity": 0.9084,
+      "should_hit": false,
+      "veto": "polarity_flipped:increase/decrease",
+      "note": "increase vs decrease",
+      "a": "How do I increase the font size in VS Code?",
+      "b": "How do I decrease the font size in VS Code?"
+    },
+    {
+      "id": "c060",
+      "similarity": 0.9405,
+      "should_hit": false,
+      "veto": "polarity_flipped:önce/sonra",
+      "note": "önce vs sonra",
+      "a": "Ameliyattan önce nelere dikkat etmeliyim?",
+      "b": "Ameliyattan sonra nelere dikkat etmeliyim?"
+    },
+    {
+      "id": "c061",
+      "similarity": 0.9239,
+      "should_hit": false,
+      "veto": "polarity_flipped:advantage/disadvantage",
+      "note": "advantages vs disadvantages",
+      "a": "What are the advantages of microservices?",
+      "b": "What are the disadvantages of microservices?"
+    },
+    {
+      "id": "c062",
+      "similarity": 0.9661,
+      "should_hit": false,
+      "veto": "polarity_flipped:ithalat/ihracat",
+      "note": "ihracat vs ithalat",
+      "a": "Türkiye'nin en çok ihracat yaptığı ülke hangisi?",
+      "b": "Türkiye'nin en çok ithalat yaptığı ülke hangisi?"
+    },
+    {
+      "id": "c063",
+      "similarity": 0.7377,
+      "should_hit": false,
+      "veto": "polarity_flipped:cheapest/most expensive",
+      "note": "cheapest vs most expensive",
+      "a": "Which is the cheapest city to live in Europe?",
+      "b": "Which is the most expensive city to live in Europe?"
+    },
+    {
+      "id": "c064",
+      "similarity": 0.8741,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different amount",
+      "a": "100 dolar kaç TL?",
+      "b": "200 dolar kaç TL?"
+    },
+    {
+      "id": "c065",
+      "similarity": 0.9852,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different year",
+      "a": "2023 yılında Türkiye'nin enflasyon oranı neydi?",
+      "b": "2024 yılında Türkiye'nin enflasyon oranı neydi?"
+    },
+    {
+      "id": "c066",
+      "similarity": 0.9954,
+      "should_hit": false,
+      "veto": "direction_differs:kilometres->miles",
+      "note": "unit direction reversed",
+      "a": "Convert 10 miles to kilometres",
+      "b": "Convert 10 kilometres to miles"
+    },
+    {
+      "id": "c067",
+      "similarity": 0.9794,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different date",
+      "a": "What was the weather like in Paris on 14 July 2023?",
+      "b": "What was the weather like in Paris on 14 July 2024?"
+    },
+    {
+      "id": "c068",
+      "similarity": 0.9187,
+      "should_hit": false,
+      "veto": "units_differ",
+      "note": "different target unit",
+      "a": "5 kg kaç pound eder?",
+      "b": "5 kg kaç ons eder?"
+    },
+    {
+      "id": "c069",
+      "similarity": 0.8845,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different number",
+      "a": "What is 15% of 80?",
+      "b": "What is 15% of 60?"
+    },
+    {
+      "id": "c070",
+      "similarity": 0.9584,
+      "should_hit": false,
+      "veto": "entity_differs:ocak",
+      "note": "different month",
+      "a": "Ankara'da 25 Aralık'ta hava nasıl olacak?",
+      "b": "Ankara'da 25 Ocak'ta hava nasıl olacak?"
+    },
+    {
+      "id": "c071",
+      "similarity": 0.9949,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different version",
+      "a": "Python 3.12'de yeni gelen özellikler neler?",
+      "b": "Python 3.13'te yeni gelen özellikler neler?"
+    },
+    {
+      "id": "c072",
+      "similarity": 0.6279,
+      "should_hit": false,
+      "veto": null,
+      "note": "different food (common noun)",
+      "a": "How many calories are in 100 g of rice?",
+      "b": "How many calories are in 100 g of pasta?"
+    },
+    {
+      "id": "c073",
+      "similarity": 0.9362,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different temperature",
+      "a": "30 derece suda yıkanır mı?",
+      "b": "60 derece suda yıkanır mı?"
+    },
+    {
+      "id": "c074",
+      "similarity": 0.6402,
+      "should_hit": false,
+      "veto": "entity_differs:izmir",
+      "note": "different city",
+      "a": "Ankara'nın nüfusu kaç?",
+      "b": "İzmir'in nüfusu kaç?"
+    },
+    {
+      "id": "c075",
+      "similarity": 0.5739,
+      "should_hit": false,
+      "veto": "entity_differs:australia",
+      "note": "different country",
+      "a": "What is the capital of Canada?",
+      "b": "What is the capital of Australia?"
+    },
+    {
+      "id": "c076",
+      "similarity": 0.6193,
+      "should_hit": false,
+      "veto": "entity_differs:java",
+      "note": "different language",
+      "a": "Python'da dosya nasıl okunur?",
+      "b": "Java'da dosya nasıl okunur?"
+    },
+    {
+      "id": "c077",
+      "similarity": 0.5325,
+      "should_hit": false,
+      "veto": "entity_differs:apple",
+      "note": "different company",
+      "a": "Who is the CEO of Microsoft?",
+      "b": "Who is the CEO of Apple?"
+    },
+    {
+      "id": "c078",
+      "similarity": 0.8096,
+      "should_hit": false,
+      "veto": "entity_differs:fenerbahçe",
+      "note": "different club",
+      "a": "Galatasaray'ın stadyumu nerede?",
+      "b": "Fenerbahçe'nin stadyumu nerede?"
+    },
+    {
+      "id": "c079",
+      "similarity": 0.8546,
+      "should_hit": false,
+      "veto": "entity_differs:windows",
+      "note": "different OS",
+      "a": "How do I install PostgreSQL on Ubuntu?",
+      "b": "How do I install PostgreSQL on Windows?"
+    },
+    {
+      "id": "c080",
+      "similarity": 0.7695,
+      "should_hit": false,
+      "veto": null,
+      "note": "different animal (common noun)",
+      "a": "Kedilere hangi aşılar yapılmalı?",
+      "b": "Köpeklere hangi aşılar yapılmalı?"
+    },
+    {
+      "id": "c081",
+      "similarity": 0.6786,
+      "should_hit": false,
+      "veto": "entity_differs:android",
+      "note": "different platform",
+      "a": "How do I reset my iPhone?",
+      "b": "How do I reset my Android phone?"
+    },
+    {
+      "id": "c082",
+      "similarity": 0.789,
+      "should_hit": false,
+      "veto": "entity_differs:macbeth",
+      "note": "different play",
+      "a": "Summarize the plot of Hamlet",
+      "b": "Summarize the plot of Macbeth"
+    },
+    {
+      "id": "c083",
+      "similarity": 0.9773,
+      "should_hit": false,
+      "veto": "entity_differs:ingilizce",
+      "note": "summarise vs translate",
+      "a": "Şu cümleyi özetle: 'Toplantı yarın saat onda başlayacak ve iki saat sürecek.'",
+      "b": "Şu cümleyi İngilizceye çevir: 'Toplantı yarın saat onda başlayacak ve iki saat sürecek.'"
+    },
+    {
+      "id": "c084",
+      "similarity": 0.7798,
+      "should_hit": false,
+      "veto": null,
+      "note": "different genre",
+      "a": "Write a poem about the sea",
+      "b": "Write a short story about the sea"
+    },
+    {
+      "id": "c085",
+      "similarity": 0.8624,
+      "should_hit": false,
+      "veto": null,
+      "note": "explain vs optimise",
+      "a": "Explain this code: print(sum(range(10)))",
+      "b": "Optimize this code: print(sum(range(10)))"
+    },
+    {
+      "id": "c086",
+      "similarity": 0.9966,
+      "should_hit": false,
+      "veto": "long_prompt_not_exact",
+      "note": "long prompt, ending reverses the meaning beyond the 128-token window",
+      "a": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı.",
+      "b": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı."
+    },
+    {
+      "id": "c087",
+      "similarity": 0.9977,
+      "should_hit": false,
+      "veto": "long_prompt_not_exact",
+      "note": "long prompt, last clause flipped",
+      "a": "Summarize the following text: Our team migrated the billing service from a monolith to thr",
+      "b": "Summarize the following text: Our team migrated the billing service from a monolith to thr"
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "pairs": 32,
+  "should_hit": 15,
+  "should_not_hit": 17,
+  "max_false_hit_rate": 0.0,
+  "embedding_only": {
+    "rows": [
+      {
+        "threshold": 0.8,
+        "precision": 0.4444,
+        "recall": 0.8,
+        "f1": 0.5714,
+        "false_hit_rate": 0.8824,
+        "tp": 12,
+        "fp": 15,
+        "fn": 3
+      },
+      {
+        "threshold": 0.82,
+        "precision": 0.4444,
+        "recall": 0.8,
+        "f1": 0.5714,
+        "false_hit_rate": 0.8824,
+        "tp": 12,
+        "fp": 15,
+        "fn": 3
+      },
+      {
+        "threshold": 0.84,
+        "precision": 0.44,
+        "recall": 0.7333,
+        "f1": 0.55,
+        "false_hit_rate": 0.8235,
+        "tp": 11,
+        "fp": 14,
+        "fn": 4
+      },
+      {
+        "threshold": 0.86,
+        "precision": 0.4348,
+        "recall": 0.6667,
+        "f1": 0.5263,
+        "false_hit_rate": 0.7647,
+        "tp": 10,
+        "fp": 13,
+        "fn": 5
+      },
+      {
+        "threshold": 0.88,
+        "precision": 0.4545,
+        "recall": 0.6667,
+        "f1": 0.5405,
+        "false_hit_rate": 0.7059,
+        "tp": 10,
+        "fp": 12,
+        "fn": 5
+      },
+      {
+        "threshold": 0.9,
+        "precision": 0.4545,
+        "recall": 0.6667,
+        "f1": 0.5405,
+        "false_hit_rate": 0.7059,
+        "tp": 10,
+        "fp": 12,
+        "fn": 5
+      },
+      {
+        "threshold": 0.92,
+        "precision": 0.3571,
+        "recall": 0.3333,
+        "f1": 0.3448,
+        "false_hit_rate": 0.5294,
+        "tp": 5,
+        "fp": 9,
+        "fn": 10
+      },
+      {
+        "threshold": 0.94,
+        "precision": 0.3846,
+        "recall": 0.3333,
+        "f1": 0.3571,
+        "false_hit_rate": 0.4706,
+        "tp": 5,
+        "fp": 8,
+        "fn": 10
+      },
+      {
+        "threshold": 0.96,
+        "precision": 0.125,
+        "recall": 0.0667,
+        "f1": 0.087,
+        "false_hit_rate": 0.4118,
+        "tp": 1,
+        "fp": 7,
+        "fn": 14
+      },
+      {
+        "threshold": 0.98,
+        "precision": 0.1429,
+        "recall": 0.0667,
+        "f1": 0.0909,
+        "false_hit_rate": 0.3529,
+        "tp": 1,
+        "fp": 6,
+        "fn": 14
+      }
+    ],
+    "recommended": {
+      "threshold": 0.98,
+      "precision": 0.1429,
+      "recall": 0.0667,
+      "f1": 0.0909,
+      "false_hit_rate": 0.3529,
+      "tp": 1,
+      "fp": 6,
+      "fn": 14,
+      "met_budget": false
+    }
+  },
+  "with_guard": {
+    "rows": [
+      {
+        "threshold": 0.8,
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1": 0.7273,
+        "false_hit_rate": 0.3529,
+        "tp": 12,
+        "fp": 6,
+        "fn": 3
+      },
+      {
+        "threshold": 0.82,
+        "precision": 0.6667,
+        "recall": 0.8,
+        "f1": 0.7273,
+        "false_hit_rate": 0.3529,
+        "tp": 12,
+        "fp": 6,
+        "fn": 3
+      },
+      {
+        "threshold": 0.84,
+        "precision": 0.6471,
+        "recall": 0.7333,
+        "f1": 0.6875,
+        "false_hit_rate": 0.3529,
+        "tp": 11,
+        "fp": 6,
+        "fn": 4
+      },
+      {
+        "threshold": 0.86,
+        "precision": 0.625,
+        "recall": 0.6667,
+        "f1": 0.6452,
+        "false_hit_rate": 0.3529,
+        "tp": 10,
+        "fp": 6,
+        "fn": 5
+      },
+      {
+        "threshold": 0.88,
+        "precision": 0.625,
+        "recall": 0.6667,
+        "f1": 0.6452,
+        "false_hit_rate": 0.3529,
+        "tp": 10,
+        "fp": 6,
+        "fn": 5
+      },
+      {
+        "threshold": 0.9,
+        "precision": 0.625,
+        "recall": 0.6667,
+        "f1": 0.6452,
+        "false_hit_rate": 0.3529,
+        "tp": 10,
+        "fp": 6,
+        "fn": 5
+      },
+      {
+        "threshold": 0.92,
+        "precision": 0.5556,
+        "recall": 0.3333,
+        "f1": 0.4167,
+        "false_hit_rate": 0.2353,
+        "tp": 5,
+        "fp": 4,
+        "fn": 10
+      },
+      {
+        "threshold": 0.94,
+        "precision": 0.5556,
+        "recall": 0.3333,
+        "f1": 0.4167,
+        "false_hit_rate": 0.2353,
+        "tp": 5,
+        "fp": 4,
+        "fn": 10
+      },
+      {
+        "threshold": 0.96,
+        "precision": 0.25,
+        "recall": 0.0667,
+        "f1": 0.1053,
+        "false_hit_rate": 0.1765,
+        "tp": 1,
+        "fp": 3,
+        "fn": 14
+      },
+      {
+        "threshold": 0.98,
+        "precision": 0.3333,
+        "recall": 0.0667,
+        "f1": 0.1112,
+        "false_hit_rate": 0.1176,
+        "tp": 1,
+        "fp": 2,
+        "fn": 14
+      }
+    ],
+    "recommended": {
+      "threshold": 0.98,
+      "precision": 0.3333,
+      "recall": 0.0667,
+      "f1": 0.1112,
+      "false_hit_rate": 0.1176,
+      "tp": 1,
+      "fp": 2,
+      "fn": 14,
+      "met_budget": false
+    }
+  },
+  "guard_false_vetoes": [],
+  "hardest_negatives": [
+    {
+      "id": "h017",
+      "similarity": 0.9964,
+      "should_hit": false,
+      "veto": "direction_differs:türkçe",
+      "note": "translation direction reversed",
+      "a": "Fransızcadan Türkçeye en iyi çeviri uygulaması hangisi?",
+      "b": "Türkçeden Fransızcaya en iyi çeviri uygulaması hangisi?"
+    },
+    {
+      "id": "h023",
+      "similarity": 0.9954,
+      "should_hit": false,
+      "veto": "polarity_flipped:en fazla/en az",
+      "note": "en fazla vs en az",
+      "a": "Kira artışı en fazla yüzde kaç olabilir?",
+      "b": "Kira artışı en az yüzde kaç olabilir?"
+    },
+    {
+      "id": "h018",
+      "similarity": 0.9903,
+      "should_hit": false,
+      "veto": "direction_differs:dropbox->google",
+      "note": "direction reversed",
+      "a": "How do I move files from Google Drive to Dropbox?",
+      "b": "How do I move files from Dropbox to Google Drive?"
+    },
+    {
+      "id": "h031",
+      "similarity": 0.9896,
+      "should_hit": false,
+      "veto": null,
+      "note": "aç vs tok",
+      "a": "Sabah aç karnına kahve içmek zararlı mı?",
+      "b": "Sabah tok karnına kahve içmek zararlı mı?"
+    },
+    {
+      "id": "h029",
+      "similarity": 0.9877,
+      "should_hit": false,
+      "veto": null,
+      "note": "conversion direction (accusative vs dative)",
+      "a": "Bitcoin'i Ethereum'a nasıl dönüştürürüm?",
+      "b": "Ethereum'u Bitcoin'e nasıl dönüştürürüm?"
+    },
+    {
+      "id": "h021",
+      "similarity": 0.9876,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "privative suffix",
+      "a": "Laktozlu süt hangi markalarda var?",
+      "b": "Laktozsuz süt hangi markalarda var?"
+    },
+    {
+      "id": "h024",
+      "similarity": 0.9628,
+      "should_hit": false,
+      "veto": null,
+      "note": "enable vs disable",
+      "a": "How do I enable dark mode in Chrome?",
+      "b": "How do I disable dark mode in Chrome?"
+    },
+    {
+      "id": "h019",
+      "similarity": 0.9452,
+      "should_hit": false,
+      "veto": null,
+      "note": "negation (-mamalı)",
+      "a": "Hamilelikte hangi ilaçlar kullanılabilir?",
+      "b": "Hamilelikte hangi ilaçlar kullanılmamalı?"
+    },
+    {
+      "id": "h022",
+      "similarity": 0.9378,
+      "should_hit": false,
+      "veto": "polarity_flipped:fast/slow",
+      "note": "fastest vs slowest",
+      "a": "What is the fastest sorting algorithm?",
+      "b": "What is the slowest sorting algorithm?"
+    },
+    {
+      "id": "h028",
+      "similarity": 0.916,
+      "should_hit": false,
+      "veto": null,
+      "note": "different unit",
+      "a": "How many tablespoons are in a cup?",
+      "b": "How many teaspoons are in a cup?"
+    },
+    {
+      "id": "h016",
+      "similarity": 0.9129,
+      "should_hit": false,
+      "veto": "direction_differs:bodrum",
+      "note": "direction reversed",
+      "a": "İzmir'den Bodrum'a giden son otobüs kaçta?",
+      "b": "Bodrum'dan İzmir'e giden son otobüs kaçta?"
+    },
+    {
+      "id": "h032",
+      "similarity": 0.9044,
+      "should_hit": false,
+      "veto": null,
+      "note": "junior vs senior",
+      "a": "Write a cover letter for a junior developer role",
+      "b": "Write a cover letter for a senior developer role"
+    }
+  ],
+  "weakest_positives": [
+    {
+      "id": "h006",
+      "similarity": 0.6922,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "React'te useEffect ne işe yarar?",
+      "b": "React useEffect hook'u ne için kullanılır?"
+    },
+    {
+      "id": "h007",
+      "similarity": 0.6958,
+      "should_hit": true,
+      "veto": null,
+      "note": "synonyms",
+      "a": "Ehliyet yenileme için hangi belgeler gerekiyor?",
+      "b": "Ehliyetimi yenilemek için gerekli evraklar neler?"
+    },
+    {
+      "id": "h005",
+      "similarity": 0.7893,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Kış lastiği ne zaman takılmalı?",
+      "b": "Kış lastiklerini hangi ayda takmak gerekir?"
+    },
+    {
+      "id": "h012",
+      "similarity": 0.8269,
+      "should_hit": true,
+      "veto": null,
+      "note": "keyword query vs question",
+      "a": "Tips for a job interview",
+      "b": "How can I prepare for a job interview?"
+    },
+    {
+      "id": "h001",
+      "similarity": 0.8502,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Bir yumurtayı kaç dakika haşlamalıyım?",
+      "b": "Yumurta kaç dakikada haşlanır?"
+    },
+    {
+      "id": "h004",
+      "similarity": 0.9045,
+      "should_hit": true,
+      "veto": null,
+      "note": "TR/EN term mix",
+      "a": "Node.js'te ortam değişkenlerini nasıl okurum?",
+      "b": "Node.js'te environment variable nasıl okunur?"
+    },
+    {
+      "id": "h014",
+      "similarity": 0.9084,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I take a screenshot on Windows?",
+      "b": "What's the shortcut for a screenshot in Windows?"
+    },
+    {
+      "id": "h009",
+      "similarity": 0.9113,
+      "should_hit": true,
+      "veto": null,
+      "note": "synonyms",
+      "a": "How do I delete a branch in Git?",
+      "b": "What's the command to remove a git branch?"
+    }
+  ],
+  "details": [
+    {
+      "id": "h001",
+      "similarity": 0.8502,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Bir yumurtayı kaç dakika haşlamalıyım?",
+      "b": "Yumurta kaç dakikada haşlanır?"
+    },
+    {
+      "id": "h002",
+      "similarity": 0.9439,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Linux'ta bir dosyanın izinlerini nasıl değiştiririm?",
+      "b": "Linux'ta dosya izinleri nasıl değiştirilir?"
+    },
+    {
+      "id": "h003",
+      "similarity": 0.9438,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Çay demlemenin doğru yolu nedir?",
+      "b": "Çay nasıl doğru demlenir?"
+    },
+    {
+      "id": "h004",
+      "similarity": 0.9045,
+      "should_hit": true,
+      "veto": null,
+      "note": "TR/EN term mix",
+      "a": "Node.js'te ortam değişkenlerini nasıl okurum?",
+      "b": "Node.js'te environment variable nasıl okunur?"
+    },
+    {
+      "id": "h005",
+      "similarity": 0.7893,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Kış lastiği ne zaman takılmalı?",
+      "b": "Kış lastiklerini hangi ayda takmak gerekir?"
+    },
+    {
+      "id": "h006",
+      "similarity": 0.6922,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "React'te useEffect ne işe yarar?",
+      "b": "React useEffect hook'u ne için kullanılır?"
+    },
+    {
+      "id": "h007",
+      "similarity": 0.6958,
+      "should_hit": true,
+      "veto": null,
+      "note": "synonyms",
+      "a": "Ehliyet yenileme için hangi belgeler gerekiyor?",
+      "b": "Ehliyetimi yenilemek için gerekli evraklar neler?"
+    },
+    {
+      "id": "h008",
+      "similarity": 0.9168,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "What's the difference between a virus and a bacterium?",
+      "b": "How do viruses differ from bacteria?"
+    },
+    {
+      "id": "h009",
+      "similarity": 0.9113,
+      "should_hit": true,
+      "veto": null,
+      "note": "synonyms",
+      "a": "How do I delete a branch in Git?",
+      "b": "What's the command to remove a git branch?"
+    },
+    {
+      "id": "h010",
+      "similarity": 0.9435,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "Can dogs eat grapes?",
+      "b": "Is it safe for dogs to eat grapes?"
+    },
+    {
+      "id": "h011",
+      "similarity": 0.9185,
+      "should_hit": true,
+      "veto": null,
+      "note": "keyword style",
+      "a": "How do I add a column to a table in PostgreSQL?",
+      "b": "PostgreSQL: how to add a new column to an existing table"
+    },
+    {
+      "id": "h012",
+      "similarity": 0.8269,
+      "should_hit": true,
+      "veto": null,
+      "note": "keyword query vs question",
+      "a": "Tips for a job interview",
+      "b": "How can I prepare for a job interview?"
+    },
+    {
+      "id": "h013",
+      "similarity": 0.9507,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "What causes inflation?",
+      "b": "Why does inflation happen?"
+    },
+    {
+      "id": "h014",
+      "similarity": 0.9084,
+      "should_hit": true,
+      "veto": null,
+      "note": "paraphrase",
+      "a": "How do I take a screenshot on Windows?",
+      "b": "What's the shortcut for a screenshot in Windows?"
+    },
+    {
+      "id": "h015",
+      "similarity": 0.9884,
+      "should_hit": true,
+      "veto": null,
+      "note": "politeness wrapper",
+      "a": "Explain recursion with a simple example.",
+      "b": "Can you explain recursion using a simple example?"
+    },
+    {
+      "id": "h016",
+      "similarity": 0.9129,
+      "should_hit": false,
+      "veto": "direction_differs:bodrum",
+      "note": "direction reversed",
+      "a": "İzmir'den Bodrum'a giden son otobüs kaçta?",
+      "b": "Bodrum'dan İzmir'e giden son otobüs kaçta?"
+    },
+    {
+      "id": "h017",
+      "similarity": 0.9964,
+      "should_hit": false,
+      "veto": "direction_differs:türkçe",
+      "note": "translation direction reversed",
+      "a": "Fransızcadan Türkçeye en iyi çeviri uygulaması hangisi?",
+      "b": "Türkçeden Fransızcaya en iyi çeviri uygulaması hangisi?"
+    },
+    {
+      "id": "h018",
+      "similarity": 0.9903,
+      "should_hit": false,
+      "veto": "direction_differs:dropbox->google",
+      "note": "direction reversed",
+      "a": "How do I move files from Google Drive to Dropbox?",
+      "b": "How do I move files from Dropbox to Google Drive?"
+    },
+    {
+      "id": "h019",
+      "similarity": 0.9452,
+      "should_hit": false,
+      "veto": null,
+      "note": "negation (-mamalı)",
+      "a": "Hamilelikte hangi ilaçlar kullanılabilir?",
+      "b": "Hamilelikte hangi ilaçlar kullanılmamalı?"
+    },
+    {
+      "id": "h020",
+      "similarity": 0.8289,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "negation",
+      "a": "Which vitamins should be taken together?",
+      "b": "Which vitamins should never be taken together?"
+    },
+    {
+      "id": "h021",
+      "similarity": 0.9876,
+      "should_hit": false,
+      "veto": "negation_differs",
+      "note": "privative suffix",
+      "a": "Laktozlu süt hangi markalarda var?",
+      "b": "Laktozsuz süt hangi markalarda var?"
+    },
+    {
+      "id": "h022",
+      "similarity": 0.9378,
+      "should_hit": false,
+      "veto": "polarity_flipped:fast/slow",
+      "note": "fastest vs slowest",
+      "a": "What is the fastest sorting algorithm?",
+      "b": "What is the slowest sorting algorithm?"
+    },
+    {
+      "id": "h023",
+      "similarity": 0.9954,
+      "should_hit": false,
+      "veto": "polarity_flipped:en fazla/en az",
+      "note": "en fazla vs en az",
+      "a": "Kira artışı en fazla yüzde kaç olabilir?",
+      "b": "Kira artışı en az yüzde kaç olabilir?"
+    },
+    {
+      "id": "h024",
+      "similarity": 0.9628,
+      "should_hit": false,
+      "veto": null,
+      "note": "enable vs disable",
+      "a": "How do I enable dark mode in Chrome?",
+      "b": "How do I disable dark mode in Chrome?"
+    },
+    {
+      "id": "h025",
+      "similarity": 0.6004,
+      "should_hit": false,
+      "veto": null,
+      "note": "different asset (lowercase)",
+      "a": "1 bitcoin kaç dolar?",
+      "b": "1 ethereum kaç dolar?"
+    },
+    {
+      "id": "h026",
+      "similarity": 0.8481,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different year",
+      "a": "What's the population of Tokyo in 2020?",
+      "b": "What's the population of Tokyo in 2010?"
+    },
+    {
+      "id": "h027",
+      "similarity": 0.7883,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different percentage",
+      "a": "500 TL'nin %18'i kaç eder?",
+      "b": "500 TL'nin %8'i kaç eder?"
+    },
+    {
+      "id": "h028",
+      "similarity": 0.916,
+      "should_hit": false,
+      "veto": null,
+      "note": "different unit",
+      "a": "How many tablespoons are in a cup?",
+      "b": "How many teaspoons are in a cup?"
+    },
+    {
+      "id": "h029",
+      "similarity": 0.9877,
+      "should_hit": false,
+      "veto": null,
+      "note": "conversion direction (accusative vs dative)",
+      "a": "Bitcoin'i Ethereum'a nasıl dönüştürürüm?",
+      "b": "Ethereum'u Bitcoin'e nasıl dönüştürürüm?"
+    },
+    {
+      "id": "h030",
+      "similarity": 0.87,
+      "should_hit": false,
+      "veto": "numbers_differ",
+      "note": "different year",
+      "a": "Who won the 2018 World Cup?",
+      "b": "Who won the 2022 World Cup?"
+    },
+    {
+      "id": "h031",
+      "similarity": 0.9896,
+      "should_hit": false,
+      "veto": null,
+      "note": "aç vs tok",
+      "a": "Sabah aç karnına kahve içmek zararlı mı?",
+      "b": "Sabah tok karnına kahve içmek zararlı mı?"
+    },
+    {
+      "id": "h032",
+      "similarity": 0.9044,
+      "should_hit": false,
+      "veto": null,
+      "note": "junior vs senior",
+      "a": "Write a cover letter for a junior developer role",
+      "b": "Write a cover letter for a senior developer role"
+    }
+  ]
+}

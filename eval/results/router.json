@@ -1,0 +1,730 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "models": {
+    "small": "claude-haiku-5-5",
+    "large": "claude-sonnet-5-5"
+  },
+  "train": 86,
+  "test": 36,
+  "test_mix": {
+    "easy": 18,
+    "hard": 18
+  },
+  "params": {
+    "heuristic_threshold": 1.5,
+    "knn_k": 11,
+    "knn_margin": 0.0
+  },
+  "cost_assumption": {
+    "output_tokens": {
+      "easy": 300,
+      "hard": 900
+    },
+    "input_tokens": "len(prompt)/3.5 + 20",
+    "same_tokens_on_both_tiers": true
+  },
+  "heuristic_train_accuracy": 0.9651,
+  "knn_leave_one_out": [
+    {
+      "n": 86,
+      "accuracy": 0.8953,
+      "precision_hard": 0.9024,
+      "recall_hard": 0.881,
+      "small_share": 0.5233,
+      "hard_sent_to_small": 5,
+      "easy_sent_to_large": 4,
+      "k": 3,
+      "margin": 0.0,
+      "weighted_errors": 14
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8721,
+      "precision_hard": 0.8605,
+      "recall_hard": 0.881,
+      "small_share": 0.5,
+      "hard_sent_to_small": 5,
+      "easy_sent_to_large": 6,
+      "k": 3,
+      "margin": 0.05,
+      "weighted_errors": 16
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8721,
+      "precision_hard": 0.8605,
+      "recall_hard": 0.881,
+      "small_share": 0.5,
+      "hard_sent_to_small": 5,
+      "easy_sent_to_large": 6,
+      "k": 3,
+      "margin": 0.1,
+      "weighted_errors": 16
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8837,
+      "precision_hard": 0.8478,
+      "recall_hard": 0.9286,
+      "small_share": 0.4651,
+      "hard_sent_to_small": 3,
+      "easy_sent_to_large": 7,
+      "k": 3,
+      "margin": 0.15,
+      "weighted_errors": 13
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8256,
+      "precision_hard": 0.7455,
+      "recall_hard": 0.9762,
+      "small_share": 0.3605,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 14,
+      "k": 3,
+      "margin": 0.2,
+      "weighted_errors": 16
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8953,
+      "precision_hard": 0.8667,
+      "recall_hard": 0.9286,
+      "small_share": 0.4767,
+      "hard_sent_to_small": 3,
+      "easy_sent_to_large": 6,
+      "k": 5,
+      "margin": 0.0,
+      "weighted_errors": 12
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8837,
+      "precision_hard": 0.8333,
+      "recall_hard": 0.9524,
+      "small_share": 0.4419,
+      "hard_sent_to_small": 2,
+      "easy_sent_to_large": 8,
+      "k": 5,
+      "margin": 0.05,
+      "weighted_errors": 12
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8953,
+      "precision_hard": 0.8367,
+      "recall_hard": 0.9762,
+      "small_share": 0.4302,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 8,
+      "k": 5,
+      "margin": 0.1,
+      "weighted_errors": 10
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8372,
+      "precision_hard": 0.7593,
+      "recall_hard": 0.9762,
+      "small_share": 0.3721,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 13,
+      "k": 5,
+      "margin": 0.15,
+      "weighted_errors": 15
+    },
+    {
+      "n": 86,
+      "accuracy": 0.814,
+      "precision_hard": 0.7321,
+      "recall_hard": 0.9762,
+      "small_share": 0.3488,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 15,
+      "k": 5,
+      "margin": 0.2,
+      "weighted_errors": 17
+    },
+    {
+      "n": 86,
+      "accuracy": 0.907,
+      "precision_hard": 0.8696,
+      "recall_hard": 0.9524,
+      "small_share": 0.4651,
+      "hard_sent_to_small": 2,
+      "easy_sent_to_large": 6,
+      "k": 7,
+      "margin": 0.0,
+      "weighted_errors": 10
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8837,
+      "precision_hard": 0.8333,
+      "recall_hard": 0.9524,
+      "small_share": 0.4419,
+      "hard_sent_to_small": 2,
+      "easy_sent_to_large": 8,
+      "k": 7,
+      "margin": 0.05,
+      "weighted_errors": 12
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8488,
+      "precision_hard": 0.7736,
+      "recall_hard": 0.9762,
+      "small_share": 0.3837,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 12,
+      "k": 7,
+      "margin": 0.1,
+      "weighted_errors": 14
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8372,
+      "precision_hard": 0.7593,
+      "recall_hard": 0.9762,
+      "small_share": 0.3721,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 13,
+      "k": 7,
+      "margin": 0.15,
+      "weighted_errors": 15
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8372,
+      "precision_hard": 0.7593,
+      "recall_hard": 0.9762,
+      "small_share": 0.3721,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 13,
+      "k": 7,
+      "margin": 0.2,
+      "weighted_errors": 15
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8953,
+      "precision_hard": 0.8511,
+      "recall_hard": 0.9524,
+      "small_share": 0.4535,
+      "hard_sent_to_small": 2,
+      "easy_sent_to_large": 7,
+      "k": 9,
+      "margin": 0.0,
+      "weighted_errors": 11
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8953,
+      "precision_hard": 0.8367,
+      "recall_hard": 0.9762,
+      "small_share": 0.4302,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 8,
+      "k": 9,
+      "margin": 0.05,
+      "weighted_errors": 10
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8372,
+      "precision_hard": 0.7593,
+      "recall_hard": 0.9762,
+      "small_share": 0.3721,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 13,
+      "k": 9,
+      "margin": 0.1,
+      "weighted_errors": 15
+    },
+    {
+      "n": 86,
+      "accuracy": 0.814,
+      "precision_hard": 0.7321,
+      "recall_hard": 0.9762,
+      "small_share": 0.3488,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 15,
+      "k": 9,
+      "margin": 0.15,
+      "weighted_errors": 17
+    },
+    {
+      "n": 86,
+      "accuracy": 0.7558,
+      "precision_hard": 0.6721,
+      "recall_hard": 0.9762,
+      "small_share": 0.2907,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 20,
+      "k": 9,
+      "margin": 0.2,
+      "weighted_errors": 22
+    },
+    {
+      "n": 86,
+      "accuracy": 0.9302,
+      "precision_hard": 0.8913,
+      "recall_hard": 0.9762,
+      "small_share": 0.4651,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 5,
+      "k": 11,
+      "margin": 0.0,
+      "weighted_errors": 7
+    },
+    {
+      "n": 86,
+      "accuracy": 0.9186,
+      "precision_hard": 0.8723,
+      "recall_hard": 0.9762,
+      "small_share": 0.4535,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 6,
+      "k": 11,
+      "margin": 0.05,
+      "weighted_errors": 8
+    },
+    {
+      "n": 86,
+      "accuracy": 0.8372,
+      "precision_hard": 0.7593,
+      "recall_hard": 0.9762,
+      "small_share": 0.3721,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 13,
+      "k": 11,
+      "margin": 0.1,
+      "weighted_errors": 15
+    },
+    {
+      "n": 86,
+      "accuracy": 0.814,
+      "precision_hard": 0.7321,
+      "recall_hard": 0.9762,
+      "small_share": 0.3488,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 15,
+      "k": 11,
+      "margin": 0.15,
+      "weighted_errors": 17
+    },
+    {
+      "n": 86,
+      "accuracy": 0.7791,
+      "precision_hard": 0.6949,
+      "recall_hard": 0.9762,
+      "small_share": 0.314,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 18,
+      "k": 11,
+      "margin": 0.2,
+      "weighted_errors": 20
+    }
+  ],
+  "knn_loo_best": {
+    "k": 11,
+    "margin": 0.0,
+    "accuracy": 0.9302,
+    "hard_sent_to_small": 1,
+    "weighted_errors": 7
+  },
+  "strategies": {
+    "heuristic": {
+      "n": 36,
+      "accuracy": 0.7778,
+      "precision_hard": 0.7778,
+      "recall_hard": 0.7778,
+      "small_share": 0.5,
+      "hard_sent_to_small": 4,
+      "easy_sent_to_large": 4,
+      "accuracy_tr": 0.7778,
+      "accuracy_en": 0.7778,
+      "cost_per_1k_usd": 4.016,
+      "saving_vs_large": 0.345,
+      "misrouted": [
+        {
+          "id": "tr-factual-07",
+          "label": "easy",
+          "tier": "large",
+          "reason": "math:formül(+1.5) = 1.5 >= 1.5"
+        },
+        {
+          "id": "tr-debugging-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": "code(+1.0) debugging:beklenmedik(+1.0) reasoning:neden(+1.0) = 3.0 >= 1.5"
+        },
+        {
+          "id": "tr-reasoning-05",
+          "label": "hard",
+          "tier": "small",
+          "reason": "reasoning:karşılaştır,risk(+2.0) simple_task:kısalt(-1.5) = 0.5 < 1.5"
+        },
+        {
+          "id": "tr-reasoning-06",
+          "label": "hard",
+          "tier": "small",
+          "reason": "reasoning:hipotez(+1.0) = 1.0 < 1.5"
+        },
+        {
+          "id": "en-extraction-02",
+          "label": "easy",
+          "tier": "large",
+          "reason": "numbers:6 numbers(+0.5) legal:contract(+1.5) simple_task:list every(-0.5) = 1.5 >= 1.5"
+        },
+        {
+          "id": "en-summarization-05",
+          "label": "easy",
+          "tier": "large",
+          "reason": "code(+1.0) debugging:timeout(+1.0) simple_task:commit message(-0.5) = 1.5 >= 1.5"
+        },
+        {
+          "id": "en-reasoning-04",
+          "label": "hard",
+          "tier": "small",
+          "reason": "technical:availability(+0.8) = 0.8 < 1.5"
+        },
+        {
+          "id": "en-math-02",
+          "label": "hard",
+          "tier": "small",
+          "reason": "numbers:7 numbers(+0.5) = 0.5 < 1.5"
+        }
+      ]
+    },
+    "knn": {
+      "n": 36,
+      "accuracy": 0.75,
+      "precision_hard": 0.68,
+      "recall_hard": 0.9444,
+      "small_share": 0.3056,
+      "hard_sent_to_small": 1,
+      "easy_sent_to_large": 8,
+      "accuracy_tr": 0.6667,
+      "accuracy_en": 0.8333,
+      "cost_per_1k_usd": 5.0705,
+      "saving_vs_large": 0.1731,
+      "misrouted": [
+        {
+          "id": "tr-factual-07",
+          "label": "easy",
+          "tier": "large",
+          "reason": "10/11 neighbours hard, P(hard)=0.93; nearest tr-math-06 (hard, 0.48)"
+        },
+        {
+          "id": "tr-factual-09",
+          "label": "easy",
+          "tier": "large",
+          "reason": "7/11 neighbours hard, P(hard)=0.66; nearest en-reasoning-06 (hard, 0.36)"
+        },
+        {
+          "id": "tr-rewrite-05",
+          "label": "easy",
+          "tier": "large",
+          "reason": "9/11 neighbours hard, P(hard)=0.75; nearest en-rewrite-05 (easy, 0.67)"
+        },
+        {
+          "id": "tr-extraction-02",
+          "label": "easy",
+          "tier": "large",
+          "reason": "7/11 neighbours hard, P(hard)=0.65; nearest tr-debugging-07 (hard, 0.60)"
+        },
+        {
+          "id": "tr-debugging-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": "10/11 neighbours hard, P(hard)=0.84; nearest en-rewrite-05 (easy, 0.62)"
+        },
+        {
+          "id": "tr-legal-03",
+          "label": "hard",
+          "tier": "small",
+          "reason": "5/11 neighbours hard, P(hard)=0.49; nearest en-legal-06 (hard, 0.44)"
+        },
+        {
+          "id": "en-extraction-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": "8/11 neighbours hard, P(hard)=0.65; nearest tr-extraction-01 (easy, 0.46)"
+        },
+        {
+          "id": "en-extraction-05",
+          "label": "easy",
+          "tier": "large",
+          "reason": "8/11 neighbours hard, P(hard)=0.76; nearest en-design-04 (hard, 0.34)"
+        },
+        {
+          "id": "en-debugging-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": "6/11 neighbours hard, P(hard)=0.55; nearest tr-debugging-05 (hard, 0.32)"
+        }
+      ]
+    },
+    "always-small": {
+      "n": 36,
+      "accuracy": 0.5,
+      "precision_hard": null,
+      "recall_hard": 0.0,
+      "small_share": 1.0,
+      "hard_sent_to_small": 18,
+      "easy_sent_to_large": 0,
+      "accuracy_tr": 0.5,
+      "accuracy_en": 0.5,
+      "cost_per_1k_usd": 0.3066,
+      "saving_vs_large": 0.95,
+      "misrouted": [
+        {
+          "id": "tr-reasoning-03",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-reasoning-05",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-reasoning-06",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-debugging-02",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-debugging-06",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-design-03",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-design-06",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-math-02",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "tr-legal-03",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-reasoning-01",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-reasoning-02",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-reasoning-04",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-design-01",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-math-02",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-math-03",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-math-07",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-legal-02",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        },
+        {
+          "id": "en-legal-05",
+          "label": "hard",
+          "tier": "small",
+          "reason": ""
+        }
+      ]
+    },
+    "always-large": {
+      "n": 36,
+      "accuracy": 0.5,
+      "precision_hard": 0.5,
+      "recall_hard": 1.0,
+      "small_share": 0.0,
+      "hard_sent_to_small": 0,
+      "easy_sent_to_large": 18,
+      "accuracy_tr": 0.5,
+      "accuracy_en": 0.5,
+      "cost_per_1k_usd": 6.1316,
+      "saving_vs_large": 0.0,
+      "misrouted": [
+        {
+          "id": "tr-factual-04",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-factual-07",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-factual-08",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-factual-09",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-rewrite-03",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-rewrite-05",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-translation-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-extraction-02",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "tr-debugging-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-factual-08",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-rewrite-03",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-rewrite-06",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-translation-04",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-extraction-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-extraction-02",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-extraction-05",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-summarization-05",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        },
+        {
+          "id": "en-debugging-01",
+          "label": "easy",
+          "tier": "large",
+          "reason": ""
+        }
+      ]
+    },
+    "oracle (labels)": {
+      "n": 36,
+      "accuracy": 1.0,
+      "precision_hard": 1.0,
+      "recall_hard": 1.0,
+      "small_share": 0.5,
+      "hard_sent_to_small": 0,
+      "easy_sent_to_large": 0,
+      "accuracy_tr": 1.0,
+      "accuracy_en": 1.0,
+      "cost_per_1k_usd": 4.6538,
+      "saving_vs_large": 0.241,
+      "misrouted": []
+    }
+  }
+}

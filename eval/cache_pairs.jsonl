@@ -1,0 +1,87 @@
+{"id": "c001", "a": "Türkiye'nin başkenti neresidir?", "b": "Türkiye'nin başkenti hangi şehir?", "should_hit": true, "note": "paraphrase"}
+{"id": "c002", "a": "Python'da bir listeyi nasıl ters çeviririm?", "b": "Python'da liste tersine nasıl çevrilir?", "should_hit": true, "note": "paraphrase"}
+{"id": "c003", "a": "Fotosentez nedir?", "b": "Fotosentez ne demek?", "should_hit": true, "note": "paraphrase"}
+{"id": "c004", "a": "Kahve içmek tansiyonu yükseltir mi?", "b": "Kahve tansiyonu yükseltir mi?", "should_hit": true, "note": "paraphrase, dropped verb"}
+{"id": "c005", "a": "Git'te son commit nasıl geri alınır?", "b": "Git'te en son yaptığım commit'i nasıl geri alırım?", "should_hit": true, "note": "paraphrase"}
+{"id": "c006", "a": "İyi bir özgeçmiş nasıl yazılır?", "b": "Etkili bir CV nasıl hazırlanır?", "should_hit": true, "note": "synonyms (özgeçmiş/CV)"}
+{"id": "c007", "a": "Docker ile sanal makine arasındaki fark nedir?", "b": "Docker ve sanal makine arasındaki farklar nelerdir?", "should_hit": true, "note": "paraphrase"}
+{"id": "c008", "a": "Ekmek hamurum neden kabarmadı?", "b": "Hamurum neden mayalanmadı?", "should_hit": true, "note": "paraphrase, negation on both sides"}
+{"id": "c009", "a": "Uykusuzluğa ne iyi gelir?", "b": "Uykusuzluk için ne yapabilirim?", "should_hit": true, "note": "paraphrase, privative suffix on both sides"}
+{"id": "c010", "a": "SQL'de JOIN türleri nelerdir?", "b": "SQL JOIN çeşitlerini açıklar mısın?", "should_hit": true, "note": "paraphrase"}
+{"id": "c011", "a": "Merhaba, REST API nedir?", "b": "REST API nedir", "should_hit": true, "note": "greeting and punctuation only"}
+{"id": "c012", "a": "Kedim neden sürekli miyavlıyor?", "b": "Kedimin sürekli miyavlamasının sebebi ne olabilir?", "should_hit": true, "note": "paraphrase"}
+{"id": "c013", "a": "Excel'de düşeyara formülü nasıl kullanılır?", "b": "Excel DÜŞEYARA fonksiyonunu nasıl kullanırım?", "should_hit": true, "note": "casing and synonyms"}
+{"id": "c014", "a": "Evde kolay pizza hamuru tarifi", "b": "Evde pratik pizza hamuru nasıl yapılır?", "should_hit": true, "note": "keyword query vs question"}
+{"id": "c015", "a": "İngilizce öğrenmek için en iyi yöntemler neler?", "b": "İngilizceyi en iyi nasıl öğrenirim?", "should_hit": true, "note": "paraphrase"}
+{"id": "c016", "a": "Kredi kartı borcu nasıl yapılandırılır?", "b": "Kredi kartı borcumu nasıl yapılandırabilirim?", "should_hit": true, "note": "personal vs impersonal form"}
+{"id": "c017", "a": "Bebeklerde ateş kaç derecede tehlikelidir?", "b": "Bebeğin ateşi kaç dereceyi geçerse tehlikeli olur?", "should_hit": true, "note": "paraphrase"}
+{"id": "c018", "a": "JavaScript'te let ve var farkı nedir?", "b": "JavaScript'te var ile let arasındaki fark ne?", "should_hit": true, "note": "reordered, same meaning"}
+{"id": "c019", "a": "Mikrodalga fırında metal kap kullanılır mı?", "b": "Mikrodalgaya metal kap koymak güvenli mi?", "should_hit": true, "note": "paraphrase"}
+{"id": "c020", "a": "Kombi basıncı kaç olmalı?", "b": "Kombinin basıncı kaç bar olmalıdır?", "should_hit": true, "note": "paraphrase, unit only implied in one"}
+{"id": "c021", "a": "Yazılım mühendisi olmak için hangi dilleri öğrenmeliyim?", "b": "Yazılım mühendisliği için hangi programlama dillerini öğrenmem gerekir?", "should_hit": true, "note": "paraphrase"}
+{"id": "c022", "a": "Pasaport başvurusu için hangi belgeler gerekli?", "b": "Pasaport almak için gereken belgeler nelerdir?", "should_hit": true, "note": "paraphrase"}
+{"id": "c023", "a": "How do I reverse a string in Python?", "b": "What's the way to reverse a string in Python?", "should_hit": true, "note": "paraphrase"}
+{"id": "c024", "a": "What is the capital of Australia?", "b": "Which city is Australia's capital?", "should_hit": true, "note": "paraphrase"}
+{"id": "c025", "a": "How can I improve my sleep quality?", "b": "Tips for sleeping better?", "should_hit": true, "note": "paraphrase, very different wording"}
+{"id": "c026", "a": "What is a REST API?", "b": "Can you explain what a REST API is?", "should_hit": true, "note": "politeness wrapper"}
+{"id": "c027", "a": "How do I center a div in CSS?", "b": "What's the best way to center a div with CSS?", "should_hit": true, "note": "paraphrase"}
+{"id": "c028", "a": "What are the symptoms of dehydration?", "b": "What are signs that I'm dehydrated?", "should_hit": true, "note": "paraphrase"}
+{"id": "c029", "a": "How do I undo the last git commit?", "b": "How can I revert my most recent commit in git?", "should_hit": true, "note": "synonyms"}
+{"id": "c030", "a": "Explain the difference between TCP and UDP.", "b": "What's the difference between TCP and UDP?", "should_hit": true, "note": "imperative vs question"}
+{"id": "c031", "a": "How do I make cold brew coffee at home?", "b": "What's the method for making cold brew at home?", "should_hit": true, "note": "paraphrase"}
+{"id": "c032", "a": "Why is the sky blue?", "b": "Why does the sky look blue?", "should_hit": true, "note": "paraphrase"}
+{"id": "c033", "a": "What does HTTP 404 mean?", "b": "What is a 404 error in HTTP?", "should_hit": true, "note": "paraphrase"}
+{"id": "c034", "a": "Best way to learn SQL as a beginner?", "b": "How should a beginner start learning SQL?", "should_hit": true, "note": "paraphrase"}
+{"id": "c035", "a": "How do I convert a list to a set in Python?", "b": "Python: turn a list into a set", "should_hit": true, "note": "keyword style"}
+{"id": "c036", "a": "What is the Pythagorean theorem?", "b": "Can you explain the Pythagorean theorem?", "should_hit": true, "note": "politeness wrapper"}
+{"id": "c037", "a": "How do I write a good cover letter?", "b": "Tips for writing an effective cover letter", "should_hit": true, "note": "paraphrase"}
+{"id": "c038", "a": "WHAT IS KUBERNETES", "b": "what is kubernetes?", "should_hit": true, "note": "casing and punctuation only"}
+{"id": "c039", "a": "how to boil an egg", "b": "How do I boil an egg?", "should_hit": true, "note": "keyword query vs question"}
+{"id": "c040", "a": "What is machine learning, in simple terms?", "b": "Explain machine learning simply.", "should_hit": true, "note": "paraphrase"}
+{"id": "c041", "a": "Is it safe to eat raw cookie dough?", "b": "Can you safely eat raw cookie dough?", "should_hit": true, "note": "paraphrase"}
+{"id": "c042", "a": "What's a good name for a golden retriever puppy?", "b": "Suggest a name for my golden retriever puppy.", "should_hit": true, "note": "question vs imperative"}
+{"id": "c043", "a": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı. Bu büyümenin temel kaynağı e-ticaret kanalındaki genişleme ve yeni açılan üç bölge deposu oldu. Lojistik maliyetleri ise yakıt fiyatlarındaki artış nedeniyle beklentinin üzerinde gerçekleşti. Yönetim, gelecek yıl için maliyetleri düşürmeye yönelik bir verimlilik programı başlatmayı planlıyor ve bu program kapsamında rota optimizasyonu ile depo otomasyonuna yatırım yapılacak. Ayrıca yurt dışı pazarlarda iki yeni distribütörle anlaşma imzalanması bekleniyor.", "b": "  AŞAĞIDAKİ METNİ ÖZETLE: ŞİRKETİMİZ 2025 YILINDA YURT İÇİ SATIŞLARINI YÜZDE ON İKİ ARTIRDI. BU BÜYÜMENİN TEMEL KAYNAĞI E-TİCARET KANALINDAKİ GENİŞLEME VE YENİ AÇILAN ÜÇ BÖLGE DEPOSU OLDU. LOJİSTİK MALİYETLERİ İSE YAKIT FİYATLARINDAKİ ARTIŞ NEDENİYLE BEKLENTİNİN ÜZERİNDE GERÇEKLEŞTİ. YÖNETİM, GELECEK YIL İÇİN MALİYETLERİ DÜŞÜRMEYE YÖNELİK BİR VERİMLİLİK PROGRAMI BAŞLATMAYI PLANLIYOR VE BU PROGRAM KAPSAMINDA ROTA OPTİMİZASYONU İLE DEPO OTOMASYONUNA YATIRIM YAPILACAK. AYRICA YURT DIŞI PAZARLARDA İKİ YENİ DİSTRİBÜTÖRLE ANLAŞMA İMZALANMASI BEKLENİYOR.  ", "should_hit": true, "note": "long prompt, identical apart from casing and spaces"}
+{"id": "c044", "a": "İstanbul'dan Ankara'ya giden ilk tren saat kaçta?", "b": "Ankara'dan İstanbul'a giden ilk tren saat kaçta?", "should_hit": false, "note": "direction reversed"}
+{"id": "c045", "a": "Türkçeden İngilizceye çevir: 'Toplantı ertelendi.'", "b": "İngilizceden Türkçeye çevir: 'Toplantı ertelendi.'", "should_hit": false, "note": "translation direction reversed"}
+{"id": "c046", "a": "Convert 100 USD to EUR", "b": "Convert 100 EUR to USD", "should_hit": false, "note": "conversion direction reversed"}
+{"id": "c047", "a": "Flights from London to New York", "b": "Flights from New York to London", "should_hit": false, "note": "direction reversed"}
+{"id": "c048", "a": "Almancadan Türkçeye çeviri ücreti ne kadar?", "b": "Türkçeden Almancaya çeviri ücreti ne kadar?", "should_hit": false, "note": "translation direction reversed"}
+{"id": "c049", "a": "Send money from my savings account to my checking account", "b": "Send money from my checking account to my savings account", "should_hit": false, "note": "direction reversed between common nouns"}
+{"id": "c050", "a": "Hangi meyveler köpekler için zehirlidir?", "b": "Hangi meyveler köpekler için zehirli değildir?", "should_hit": false, "note": "negation"}
+{"id": "c051", "a": "Şekerli kahve sağlıklı mı?", "b": "Şekersiz kahve sağlıklı mı?", "should_hit": false, "note": "privative suffix (-siz) flips meaning"}
+{"id": "c052", "a": "Which foods should I eat before a workout?", "b": "Which foods should I not eat before a workout?", "should_hit": false, "note": "negation"}
+{"id": "c053", "a": "Python'da hangi veri tipleri değiştirilebilir?", "b": "Python'da hangi veri tipleri değiştirilemez?", "should_hit": false, "note": "negative suffix (-emez)"}
+{"id": "c054", "a": "Which countries require a visa for Turkish citizens?", "b": "Which countries don't require a visa for Turkish citizens?", "should_hit": false, "note": "negation (n't)"}
+{"id": "c055", "a": "Glutenli ürünler nelerdir?", "b": "Glutensiz ürünler nelerdir?", "should_hit": false, "note": "privative suffix (-siz)"}
+{"id": "c056", "a": "Türkiye'de en yüksek maaş veren meslekler hangileri?", "b": "Türkiye'de en düşük maaş veren meslekler hangileri?", "should_hit": false, "note": "en yüksek vs en düşük"}
+{"id": "c057", "a": "What is the highest-paying programming language?", "b": "What is the lowest-paying programming language?", "should_hit": false, "note": "highest vs lowest"}
+{"id": "c058", "a": "Dünyanın en büyük okyanusu hangisi?", "b": "Dünyanın en küçük okyanusu hangisi?", "should_hit": false, "note": "en büyük vs en küçük"}
+{"id": "c059", "a": "How do I increase the font size in VS Code?", "b": "How do I decrease the font size in VS Code?", "should_hit": false, "note": "increase vs decrease"}
+{"id": "c060", "a": "Ameliyattan önce nelere dikkat etmeliyim?", "b": "Ameliyattan sonra nelere dikkat etmeliyim?", "should_hit": false, "note": "önce vs sonra"}
+{"id": "c061", "a": "What are the advantages of microservices?", "b": "What are the disadvantages of microservices?", "should_hit": false, "note": "advantages vs disadvantages"}
+{"id": "c062", "a": "Türkiye'nin en çok ihracat yaptığı ülke hangisi?", "b": "Türkiye'nin en çok ithalat yaptığı ülke hangisi?", "should_hit": false, "note": "ihracat vs ithalat"}
+{"id": "c063", "a": "Which is the cheapest city to live in Europe?", "b": "Which is the most expensive city to live in Europe?", "should_hit": false, "note": "cheapest vs most expensive"}
+{"id": "c064", "a": "100 dolar kaç TL?", "b": "200 dolar kaç TL?", "should_hit": false, "note": "different amount"}
+{"id": "c065", "a": "2023 yılında Türkiye'nin enflasyon oranı neydi?", "b": "2024 yılında Türkiye'nin enflasyon oranı neydi?", "should_hit": false, "note": "different year"}
+{"id": "c066", "a": "Convert 10 miles to kilometres", "b": "Convert 10 kilometres to miles", "should_hit": false, "note": "unit direction reversed"}
+{"id": "c067", "a": "What was the weather like in Paris on 14 July 2023?", "b": "What was the weather like in Paris on 14 July 2024?", "should_hit": false, "note": "different date"}
+{"id": "c068", "a": "5 kg kaç pound eder?", "b": "5 kg kaç ons eder?", "should_hit": false, "note": "different target unit"}
+{"id": "c069", "a": "What is 15% of 80?", "b": "What is 15% of 60?", "should_hit": false, "note": "different number"}
+{"id": "c070", "a": "Ankara'da 25 Aralık'ta hava nasıl olacak?", "b": "Ankara'da 25 Ocak'ta hava nasıl olacak?", "should_hit": false, "note": "different month"}
+{"id": "c071", "a": "Python 3.12'de yeni gelen özellikler neler?", "b": "Python 3.13'te yeni gelen özellikler neler?", "should_hit": false, "note": "different version"}
+{"id": "c072", "a": "How many calories are in 100 g of rice?", "b": "How many calories are in 100 g of pasta?", "should_hit": false, "note": "different food (common noun)"}
+{"id": "c073", "a": "30 derece suda yıkanır mı?", "b": "60 derece suda yıkanır mı?", "should_hit": false, "note": "different temperature"}
+{"id": "c074", "a": "Ankara'nın nüfusu kaç?", "b": "İzmir'in nüfusu kaç?", "should_hit": false, "note": "different city"}
+{"id": "c075", "a": "What is the capital of Canada?", "b": "What is the capital of Australia?", "should_hit": false, "note": "different country"}
+{"id": "c076", "a": "Python'da dosya nasıl okunur?", "b": "Java'da dosya nasıl okunur?", "should_hit": false, "note": "different language"}
+{"id": "c077", "a": "Who is the CEO of Microsoft?", "b": "Who is the CEO of Apple?", "should_hit": false, "note": "different company"}
+{"id": "c078", "a": "Galatasaray'ın stadyumu nerede?", "b": "Fenerbahçe'nin stadyumu nerede?", "should_hit": false, "note": "different club"}
+{"id": "c079", "a": "How do I install PostgreSQL on Ubuntu?", "b": "How do I install PostgreSQL on Windows?", "should_hit": false, "note": "different OS"}
+{"id": "c080", "a": "Kedilere hangi aşılar yapılmalı?", "b": "Köpeklere hangi aşılar yapılmalı?", "should_hit": false, "note": "different animal (common noun)"}
+{"id": "c081", "a": "How do I reset my iPhone?", "b": "How do I reset my Android phone?", "should_hit": false, "note": "different platform"}
+{"id": "c082", "a": "Summarize the plot of Hamlet", "b": "Summarize the plot of Macbeth", "should_hit": false, "note": "different play"}
+{"id": "c083", "a": "Şu cümleyi özetle: 'Toplantı yarın saat onda başlayacak ve iki saat sürecek.'", "b": "Şu cümleyi İngilizceye çevir: 'Toplantı yarın saat onda başlayacak ve iki saat sürecek.'", "should_hit": false, "note": "summarise vs translate"}
+{"id": "c084", "a": "Write a poem about the sea", "b": "Write a short story about the sea", "should_hit": false, "note": "different genre"}
+{"id": "c085", "a": "Explain this code: print(sum(range(10)))", "b": "Optimize this code: print(sum(range(10)))", "should_hit": false, "note": "explain vs optimise"}
+{"id": "c086", "a": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı. Bu büyümenin temel kaynağı e-ticaret kanalındaki genişleme ve yeni açılan üç bölge deposu oldu. Lojistik maliyetleri ise yakıt fiyatlarındaki artış nedeniyle beklentinin üzerinde gerçekleşti. Yönetim, gelecek yıl için maliyetleri düşürmeye yönelik bir verimlilik programı başlatmayı planlıyor ve bu program kapsamında rota optimizasyonu ile depo otomasyonuna yatırım yapılacak. Ayrıca yurt dışı pazarlarda iki yeni distribütörle anlaşma imzalanması bekleniyor.", "b": "Aşağıdaki metni özetle: Şirketimiz 2025 yılında yurt içi satışlarını yüzde on iki artırdı. Bu büyümenin temel kaynağı e-ticaret kanalındaki genişleme ve yeni açılan üç bölge deposu oldu. Lojistik maliyetleri ise yakıt fiyatlarındaki artış nedeniyle beklentinin üzerinde gerçekleşti. Yönetim, gelecek yıl için maliyetleri düşürmeye yönelik bir verimlilik programı başlatmayı planlıyor ve bu program kapsamında rota optimizasyonu ile depo otomasyonuna yatırım yapılacak. Ayrıca yurt dışı pazarlardan çekilme kararı alındı ve iki distribütörle sözleşme feshedildi.", "should_hit": false, "note": "long prompt, ending reverses the meaning beyond the 128-token window"}
+{"id": "c087", "a": "Summarize the following text: Our team migrated the billing service from a monolith to three independent services over six months. Latency for invoice generation dropped from 2.1 seconds to 400 milliseconds, but the number of production incidents rose during the first two months because of missing alerts and unclear ownership. After introducing on-call rotations and service-level objectives, incidents fell below the pre-migration baseline.", "b": "Summarize the following text: Our team migrated the billing service from a monolith to three independent services over six months. Latency for invoice generation dropped from 2.1 seconds to 400 milliseconds, but the number of production incidents rose during the first two months because of missing alerts and unclear ownership. After introducing on-call rotations and service-level objectives, incidents stayed above the pre-migration baseline.", "should_hit": false, "note": "long prompt, last clause flipped"}
